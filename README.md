@@ -24,5 +24,9 @@ Meteor써서 빠른 프로토타이핑에 도전하자.
 * [Socket.IO](http://socket.io/)
 
 ### Install
+* Backbone 설치
+
 `meteor add backbone`
+* coffeescript 설치
+
 `meteor add coffescript`
