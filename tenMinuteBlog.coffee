@@ -44,4 +44,4 @@ if Meteor.is_client
 			result = (Posts.find {}, sort:createdTimestamp:-1, limit:10).map (v)-> $.extend v, createDate:niceTime(v.createdTimestamp)
 
 if Meteor.is_server
-  Meteor.startup -> console.log 'started'
+	Meteor.startup -> console.log 'started'

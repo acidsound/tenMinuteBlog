@@ -22,11 +22,13 @@ Meteor써서 빠른 프로토타이핑에 도전하자.
 * [Backbone](http://documentcloud.github.com/backbone/)
 * [MongoDB](http://www.mongodb.org/)
 * [Socket.IO](http://socket.io/)
+* [Bootstrap](http://twitter.github.com/bootstrap)
 
 ### Install
-* Backbone 설치
-
-`meteor add backbone`
-* coffeescript 설치
-
-`meteor add coffescript`
+1. node.js + npm (http://nodejs.org/#download)
+1. meteor (http://meteor.com/)
+1. Coffeescript (npm install -g coffee-script)
+1. jQuery plug-in (meteor add jquery)
+1. less plug-in (meteor add less)
+1. coffeescript plug-in (meteor add coffeescript)
+1. bootstrap plug-in (meteor add bootstrap)

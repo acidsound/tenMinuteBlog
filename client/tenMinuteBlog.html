@@ -1,6 +1,6 @@
 <head>
-  <title>tenMinuteBlog</title>
-  <link rel="shortcut icon" href="/img/favicon.ico">
+	<title>tenMinuteBlog</title>
+	<link rel="shortcut icon" href="/img/favicon.ico">
 </head>
 
 <body>
@@ -11,13 +11,13 @@
 </body>
 
 <template name="list">
-  <div class="list">
-    <ul>
+	<div class="list">
+		<ul>
 			{{> add}}
-	    {{#each posts}}
-	    {{> item}}
-	    {{/each}}
-    </ul>
+			{{#each posts}}
+			{{> item}}
+			{{/each}}
+		</ul>
 	</div>
 </template>
 
@@ -32,18 +32,18 @@
 
 <template name="add">
 	<li class="">
-	  <div class="subject">
-	    <input type="text" placeholder="Title here..." id="subject" class="span5"/> 
-	  </div>
-	  <div class="context">
-	    <textarea id="context" class="span5"></textarea>
-	  </div>
-	  <p>
+		<div class="subject">
+			<input type="text" placeholder="Title here..." id="subject" class="span5"/> 
+		</div>
+		<div class="context">
+			<textarea id="context" class="span5"></textarea>
+		</div>
+		<p>
 			<a class="btn" id="add" href="#">
-		  	<i class="icon-pencil">
-		  	</i>
-		  	Add
-		  </a>
+				<i class="icon-pencil">
+				</i>
+				Add
+			</a>
 		</p>
-  </li>
+	</li>
 </template>
