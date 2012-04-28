@@ -6,3 +6,6 @@
 autopublish
 coffeescript
 backbone
+jquery
+less
+bootstrap
