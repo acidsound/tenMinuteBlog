@@ -42,6 +42,10 @@ if Meteor.is_client
 	$.extend Template.list,
 		posts: ->
 			result = (Posts.find {}, sort:createdTimestamp:-1, limit:10).map (v)-> $.extend v, createDate:niceTime(v.createdTimestamp)
+	$.extend Template.item,
+		events:
+			'click': ->
+				console.log this._id
 
 if Meteor.is_server
 	Meteor.startup -> console.log 'started'
